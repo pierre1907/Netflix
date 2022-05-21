@@ -1,0 +1,7 @@
+echo "# Netflix" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pierre1907/Netflix.git
+git push -u origin main
